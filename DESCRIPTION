@@ -16,3 +16,12 @@ Depends:
 LazyData: true
 URL: https://github.com/BautistaTorregiani/paquetedeprueba
 BugReports: https://github.com/BautistaTorregiani/paquetedeprueba/issues
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Imports: 
+    cli,
+    dplyr
+Config/testthat/edition: 3
