@@ -23,5 +23,4 @@ Suggests:
 VignetteBuilder: knitr
 Imports: 
     cli,
-    dplyr
 Config/testthat/edition: 3

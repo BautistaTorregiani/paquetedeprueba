@@ -4,3 +4,6 @@
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^data_raw
+^\.github$
+^CODE_OF_CONDUCT\.md$
