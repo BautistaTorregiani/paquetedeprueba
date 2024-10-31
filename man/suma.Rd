@@ -2,7 +2,7 @@
 % Please edit documentation in R/Suma.R
 \name{suma}
 \alias{suma}
-\title{' La función \code{suma()} dos valores numéricos positivos y calcula la suma entre ambos números.}
+\title{La funcion \code{suma()} toma dos valores numericos positivos y calcula la suma entre ambos numeros.}
 \usage{
 suma(x = 5, y = 2)
 }
@@ -15,7 +15,7 @@ suma(x = 5, y = 2)
 un numero entero
 }
 \description{
-' La función \code{suma()} dos valores numéricos positivos y calcula la suma entre ambos números.
+La funcion \code{suma()} toma dos valores numericos positivos y calcula la suma entre ambos numeros.
 }
 \examples{
 suma(2,2)

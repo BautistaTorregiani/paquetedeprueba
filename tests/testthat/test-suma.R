@@ -3,6 +3,6 @@ test_that("la suma funciona", {
 })
 
 test_that("no suma caracteres", {
-  expect_error(object = suma(1,'1'), 'Los argumentos deben ser numéricos')
+  expect_error(object = suma(1,'1'), 'Los argumentos deben ser numericos')
 })
 

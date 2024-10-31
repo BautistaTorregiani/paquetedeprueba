@@ -1,18 +1,23 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # paquetedeprueba
 
 <!-- badges: start -->
 
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg){width="192"}](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/BautistaTorregiani/paquetedeprueba/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/BautistaTorregiani/paquetedeprueba/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/BautistaTorregiani/paquetedeprueba/graph/badge.svg)](https://app.codecov.io/gh/BautistaTorregiani/paquetedeprueba)
 <!-- badges: end -->
 
 The goal of paquetedeprueba is to …
 
 ## Installation
 
-You can install the development version of paquetedeprueba from [GitHub](https://github.com/) with:
+You can install the development version of paquetedeprueba from
+[GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("pak")
