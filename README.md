@@ -3,6 +3,8 @@
 
 # paquetedeprueba
 
+\<img src=““man/figures/logo.webp” align=“right” width=“123”/\>
+
 <!-- badges: start -->
 
 [![Lifecycle:
@@ -10,6 +12,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 [![R-CMD-check](https://github.com/BautistaTorregiani/paquetedeprueba/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/BautistaTorregiani/paquetedeprueba/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/BautistaTorregiani/paquetedeprueba/graph/badge.svg)](https://app.codecov.io/gh/BautistaTorregiani/paquetedeprueba)
+
 <!-- badges: end -->
 
 The goal of paquetedeprueba is to …

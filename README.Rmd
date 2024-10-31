@@ -15,10 +15,12 @@ knitr::opts_chunk$set(
 
 # paquetedeprueba
 
+\<img src=""man/figures/logo.webp" align="right" width="123"/\>
+
 <!-- badges: start -->
-[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/BautistaTorregiani/paquetedeprueba/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/BautistaTorregiani/paquetedeprueba/actions/workflows/R-CMD-check.yaml)
-[![Codecov test coverage](https://codecov.io/gh/BautistaTorregiani/paquetedeprueba/graph/badge.svg)](https://app.codecov.io/gh/BautistaTorregiani/paquetedeprueba)
+
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental) [![R-CMD-check](https://github.com/BautistaTorregiani/paquetedeprueba/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/BautistaTorregiani/paquetedeprueba/actions/workflows/R-CMD-check.yaml) [![Codecov test coverage](https://codecov.io/gh/BautistaTorregiani/paquetedeprueba/graph/badge.svg)](https://app.codecov.io/gh/BautistaTorregiani/paquetedeprueba)
+
 <!-- badges: end -->
 
 The goal of paquetedeprueba is to ...
@@ -40,4 +42,3 @@ This is a basic example which shows you how to solve a common problem:
 library(paquetedeprueba)
 suma(2,2)
 ```
-
