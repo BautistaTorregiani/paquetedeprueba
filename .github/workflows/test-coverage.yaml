@@ -28,13 +28,23 @@ jobs:
         run: |
           install.packages("covr")
 
+      - name: Verify test directory exists
+        run: |
+          if [ ! -d "tests" ]; then echo "Directory 'tests' does not exist"; exit 1; fi
+
       - name: Run tests
         run: |
           Rscript -e 'testthat::test_dir("tests")'
 
       - name: Run code coverage
-        run: |
-          Rscript -e 'covr::codecov(token = Sys.getenv("CODECOV_TOKEN"))'
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+        run: |
+          Rscript -e 'covr::codecov()'
 
+      - name: Upload Coverage Report
+        if: always()
+        uses: codecov/codecov-action@v3
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          fail_ci_if_error: true
