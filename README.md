@@ -3,7 +3,7 @@
 
 # paquetedeprueba
 
-\<img src=““man/figures/logo.webp” align=“right” width=“123”/\>
+<img src="man/figures/logo.webp" align="right" width="130"/>
 
 <!-- badges: start -->
 

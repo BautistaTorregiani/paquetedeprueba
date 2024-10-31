@@ -20,7 +20,7 @@ Suggests:
     rmarkdown,
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
-Logo: logo/logo.webp
+Logo: Logo: man/figures/logo.webp
 Imports: 
     cli,
 Config/testthat/edition: 3 
